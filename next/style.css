@@ -28,14 +28,16 @@ header {
 }
 
 header .logo {
-  color: #fff;
+  color: #e6005c;
   font-weight: 700;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 40px;
+};
 header ul {
   display: flex;
   justify-content: center;
@@ -105,11 +107,10 @@ section img#mountains_front {
 #text {
   position: absolute;
   right: -750px;
-  color: #e6005c;
+  color: #fff;
   white-space: nowrap;
   font-size: 7.5vw;
   z-index: 9;
-
 }
 
 #btn {
@@ -138,23 +139,23 @@ section img#mountains_front {
 }
 
 .sec p {
-  font-size: 1em;
+  font-size: 2em;
   color: #fff;
 }
 
-#s {
+#sa {
   position: relative;
   padding: 100px;
   background: #99003d;
 }
 
-#s h2 {
+#sa h2{
   font-size: 3.5em;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#s p {
+#sa p {
   font-size: 1em;
   color: #fff;
 }
